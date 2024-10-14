@@ -1,11 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
+h2,
+p,
+h1,
+h3,
+button {
+  font-family: Azeret Mono;
+}
 .banner-section {
-  margin-top: 50px;
+  margin: auto;
   background-image: url(./assets/Hero-bg.png);
-  padding: 200px;
+  padding: 100px;
   max-width: 1240px;
   max-height: 652px;
   background-position: center;
@@ -15,4 +24,133 @@
 }
 button {
   color: red;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
+  color: #99c1da;
+}
+.banner-section h2 {
+  color: rgb(13, 19, 33);
+  font-weight: 800;
+  font-size: 42px;
+}
+.banner-section p {
+  color: rgb(13, 19, 33);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 20px 0;
+}
+.banner-section img {
+  width: 130px;
+  height: 130.9px;
+}
+
+.section-2 {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.section-2 p {
+  font-weight: 300px;
+  color: #878889;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-2 h2 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.card-1 {
+  margin-top: 50px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-1-content h2 {
+  font-size: 18px;
+  text-align: left;
+}
+.card-1-content p {
+  text-align: left;
+  margin: 20px 0;
+}
+.card-1-content {
+  width: 50%;
+  margin-left: 0;
+}
+.card-1-content button {
+  margin-left: 0;
+  text-align: left;
+  display: flex;
+  background-color: #ffff;
+  color: black;
+  border: 2px solid #878889;
+  padding: 12px 20px 12px 20px;
+}
+.card-2 {
+  margin-top: 50px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-2-content h2 {
+  font-size: 18px;
+  text-align: left;
+}
+.card-2-content p {
+  text-align: left;
+  margin: 20px 0;
+}
+.card-2-content {
+  width: 50%;
+  margin-left: 0;
+}
+.card-2-content button {
+  margin-left: 0;
+  text-align: left;
+  display: flex;
+  background-color: #ffff;
+  color: black;
+  border: 2px solid #878889;
+  padding: 12px 20px 12px 20px;
+}
+
+.card-3 {
+  margin-top: 50px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-3-content h2 {
+  font-size: 18px;
+  text-align: left;
+}
+.card-3-content p {
+  text-align: left;
+  margin: 20px 0;
+}
+.card-3-content {
+  width: 50%;
+  margin-left: 0;
+}
+.card-3-content button {
+  margin-left: 0;
+  text-align: left;
+  display: flex;
+  background-color: #ffff;
+  color: black;
+  border: 2px solid #878889;
+  padding: 12px 20px 12px 20px;
 }
