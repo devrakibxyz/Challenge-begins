@@ -8,7 +8,8 @@ h2,
 p,
 h1,
 h3,
-button {
+button,
+span {
   font-family: Azeret Mono;
 }
 .banner-section {
@@ -153,4 +154,42 @@ button {
   color: black;
   border: 2px solid #878889;
   padding: 12px 20px 12px 20px;
+}
+
+.taget-card {
+  margin-top: 50px;
+}
+
+.target-card-all {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.target-card-all h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.target-card-all .html {
+  background-color: #fff6f4;
+  padding: 50px;
+  border-radius: 8px;
+}
+.target-card-all .css {
+  margin: 0 50px;
+  background-color: #f2f6fe;
+  padding: 50px;
+  border-radius: 8px;
+}
+.target-card-all .javascript {
+  background-color: #fffdf2;
+  padding: 50px;
+  border-radius: 8px;
+}
+.target-btn span {
+  background: 0;
+  font-size: 14px;
+  border: none;
+  color: rgb(33, 31, 31);
+
+  text-decoration: underline;
 }
