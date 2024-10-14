@@ -231,3 +231,22 @@ button {
 }
 .support-section {
 }
+
+.footer {
+  width: 1240px;
+  margin: auto;
+}
+.footer-content {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+}
+.footer-right .github {
+  margin-right: 20px;
+  margin-left: 20px;
+}
