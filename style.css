@@ -32,13 +32,17 @@ input {
   color: #99c1da;
   cursor: pointer;
 }
+.banner-btn a {
+  text-decoration: none;
+  color: #fff;
+}
 .banner-section h2 {
   color: rgb(13, 19, 33);
   font-weight: 800;
   font-size: 42px;
 }
 .banner-section p {
-  color: rgb(13, 19, 33);
+  color: rgb(134, 139, 151);
 
   font-size: 14px;
   font-weight: 400;
